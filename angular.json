@@ -61,7 +61,10 @@
             },
             "development": {
               "buildTarget": "auth-client:build:development"
+              
             }
+            
+
           },
           "defaultConfiguration": "development"
         },
@@ -72,6 +75,7 @@
           }
         },
         "test": {
+          
           "builder": "@angular-devkit/build-angular:karma",
           "options": {
             "polyfills": [

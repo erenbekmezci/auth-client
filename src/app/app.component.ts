@@ -1,5 +1,9 @@
+import { CommonModule } from '@angular/common';
 import { Component } from '@angular/core';
-import { RouterOutlet } from '@angular/router';
+import { RouterOutlet ,RouterModule} from '@angular/router';
+import { LoginComponent } from './pages/login/login.component';
+
+
 
 @Component({
   selector: 'app-root',
@@ -10,4 +14,5 @@ import { RouterOutlet } from '@angular/router';
 })
 export class AppComponent {
   title = 'auth-client';
+  text : string = "Giriş yap home sayfasını görmek için";
 }
